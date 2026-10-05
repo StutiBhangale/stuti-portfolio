@@ -18,7 +18,6 @@ import {
 
 import {
   Globe2,
-  Plug,
   Layers3,
   BadgeCheck,
   Component,
