@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { ArrowDown, ArrowUpRight } from "lucide-react";
+import { ArrowDown } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import "./Home.css";
 
 const Home = () => {
-    const navigate = useNavigate();
     const [nameText, setNameText] = useState("");
     const [roleText, setRoleText] = useState("");
     const [typingName, setTypingName] = useState(true);
