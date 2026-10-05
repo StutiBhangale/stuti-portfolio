@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { ArrowDown } from "lucide-react";
-import { useNavigate } from "react-router-dom";
 import "./Home.css";
 
 const Home = () => {
