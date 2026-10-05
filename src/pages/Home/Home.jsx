@@ -70,7 +70,7 @@ const Home = () => {
                     <p>
                         I have 3+ years of frontend development experience across enterprise
                         payment and AI applications. My primary experience is with React,
-                        JavaScript and Redux, with additional experience in AngularJS and
+                        JavaScript and Redux, with additional experience in Angular and
                         TypeScript. I focus on responsive UI, reusable components, dynamic
                         forms, state management and REST API integration.
                     </p>

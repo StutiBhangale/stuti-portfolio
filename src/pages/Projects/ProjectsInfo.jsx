@@ -1,6 +1,6 @@
 import React from "react";
 import "./ProjectInfo.css";
-import { ProjectData } from "../../UserData/ProjectData";
+import { projectData } from "../../UserData/ProjectData";
 import { ArrowUpRight } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
@@ -12,11 +12,11 @@ const ProjectsInfo = () => {
             <div className="section-heading">
                 <span>SELECTED WORK</span>
                 <h1>Projects</h1>
-                <p>Enterprise and internal applications across React, AngularJS, payments and AI.</p>
+                <p>Enterprise and internal applications across React, Angular, payments and AI.</p>
             </div>
 
             <div className="project-container">
-                {ProjectData.map((data) => {
+                {projectData.map((data) => {
                     const Icon = data.icon;
                     return (
                         <article className="project-card" key={data.id}>

@@ -1,13 +1,13 @@
 import { ArrowLeft } from "lucide-react";
 import React from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { ProjectData } from "../../UserData/ProjectData";
+import { projectData } from "../../UserData/ProjectData";
 import "./ProjectDetail.css";
 
 const ProjectDetail = () => {
     const navigate = useNavigate();
     const { slug } = useParams();
-    const project = ProjectData.find((data) => data.slug === slug);
+    const project = projectData.find((data) => data.slug === slug);
 
     if (!project) {
         return (

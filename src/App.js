@@ -16,14 +16,14 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <ScrollToTop />
+        <ScrollToTop />
         <Navbar />
         <Routes>
           <Route path='' element={<>
             <Home />
             <ProjectsInfo />
-            <Experience />
             <Skills />
+            <Experience />
             <Achievements />
             <ContactMe />
           </>} />
@@ -36,13 +36,13 @@ function App() {
 }
 
 function ScrollToTop() {
-    const { pathname } = useLocation();
+  const { pathname } = useLocation();
 
-    useEffect(() => {
-        window.scrollTo(0, 0);
-    }, [pathname]);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
-    return null;
+  return null;
 }
 
 export default App;

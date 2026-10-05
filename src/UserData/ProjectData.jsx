@@ -5,7 +5,7 @@ import {
   CalendarCheck
 } from "lucide-react";
 
-export const ProjectData = [
+export const projectData = [
   {
     id: 1,
     slug: "ai-application",
@@ -14,7 +14,7 @@ export const ProjectData = [
     description:
       "Enterprise AI application featuring AI Chat, RAG, Knowledge Vault, role-based agents and Agentic AI workflows",
 
-    tech: "AngularJS · TypeScript · Figma · REST APIs",
+    tech: "Angular · TypeScript · Figma · REST APIs",
 
     highlights: ["API Integrations", "Reusable Components", "AI Workflows"],
 
@@ -23,7 +23,7 @@ export const ProjectData = [
     duration: "Feb 2026 – Present",
 
     stack: [
-      "AngularJS",
+      "Angular",
       "TypeScript",
       "JavaScript",
       "HTML5",

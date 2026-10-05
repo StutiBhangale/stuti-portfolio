@@ -1,5 +1,5 @@
 import React from "react";
-import { SkillsData } from "../../UserData/SkillsData";
+import { skillsData } from "../../UserData/SkillsData";
 import "./Skills.css";
 
 const Skills = () => {
@@ -7,7 +7,7 @@ const Skills = () => {
         <div id="skills" className="skills-section">
             <h1>My Skills</h1>
             <div className="skills-content">
-                {SkillsData.map((category) => (
+                {skillsData.map((category) => (
                     <div className="skills-category" key={category.category}>
                         <h2>{category.category}</h2>
 
