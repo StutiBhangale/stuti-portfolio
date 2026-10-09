@@ -70,8 +70,8 @@ const Home = () => {
                     <p>
                         I have 3+ years of frontend development experience across enterprise
                         payment and AI applications. My primary experience is with React,
-                        JavaScript and Redux, with additional experience in Angular and
-                        TypeScript. I focus on responsive UI, reusable components, dynamic
+                        JavaScript, TypeScript and Redux, with additional experience in Angular.
+                        I focus on responsive UI, reusable components, dynamic
                         forms, state management and REST API integration.
                     </p>
                 </div>
@@ -82,7 +82,7 @@ const Home = () => {
                     </a>
 
                     <a
-                        href="/Stuti_Bhangale_Resume.docx"
+                        href="/Stuti-Bhangale-Resume.pdf"
                         download
                         className="home-btn secondary"
                     >
