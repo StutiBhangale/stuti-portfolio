@@ -1,7 +1,6 @@
 import {
   Sparkles,
   Banknote,
-  ChartNoAxesCombined,
   CalendarCheck
 } from "lucide-react";
 
