@@ -100,48 +100,8 @@ export const projectData = [
       "Managing data flow between components and keeping UI state synchronized with API responses."
     ]
   },
-
   {
     id: 3,
-    slug: "delivery-excellence",
-    name: "Delivery Excellence",
-
-    description:
-      "Delivery reporting initiative focused on project metrics, health, risks and management reporting.",
-
-    tech: "Power BI · SharePoint · Data Visualization",
-
-    highlights: ["Project Metrics", "Delivery Reporting", "Governance"],
-
-    icon: ChartNoAxesCombined,
-
-    duration: "May 2025 – Jan 2026",
-
-    stack: [
-      "Power BI",
-      "SharePoint",
-      "Data Visualization"
-    ],
-
-    overview:
-      "A project governance and reporting initiative focused on tracking monthly delivery metrics and providing visibility into project health, risks, escalations, complaints and other delivery-related information. The initiative supported structured reporting and review processes for project managers and delivery teams, helping them monitor project performance and identify areas requiring attention.",
-
-    contribution: [
-      "Collaborated with project managers to understand reporting requirements and delivery governance needs.",
-      "Built monthly project metrics and Power BI dashboards to provide visibility into project performance.",
-      "Worked with project health, status, risk, escalation and complaint-related information.",
-      "Helped organize project information into structured reports for delivery reviews and management discussions.",
-      "Created training materials and reference documentation for the Delivery Excellence program to support project managers in following reporting and governance processes."
-    ],
-
-    challenges: [
-      "Understanding different project governance metrics and how they contribute to delivery visibility.",
-      "Consolidating information from different project areas into clear and meaningful reports."
-    ]
-  },
-
-  {
-    id: 4,
     slug: "employee-meal-booking",
     name: "Employee Meal Booking",
 

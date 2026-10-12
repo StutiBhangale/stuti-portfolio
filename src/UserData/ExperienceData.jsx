@@ -1,34 +1,43 @@
 export const experiences = [
     {
-        period: "Feb 2026 – Present",
-        role: "Frontend Developer",
-        project: "AI Application",
+        period: "June 2023 – Present",
+        role: "Tech Engineer",
+        company: "Opus Technologies",
         description:
-            "Building responsive enterprise UI for an AI application using Angular, TypeScript, JavaScript and REST APIs. Work includes user flows, Figma-based implementation, reusable components and API-driven workflows.",
-        skills: ["Angular", "TypeScript", "REST APIs", "Figma"]
-    },
-    {
-        period: "May 2025 – Jan 2026",
-        role: "Delivery Excellence",
-        project: "Project Metrics & Reporting",
-        description:
-            "Worked on delivery reporting and governance activities, including project metrics, health, risks, escalations, Power BI dashboards, SharePoint-based information and training documentation for project teams.",
-        skills: ["Power BI", "SharePoint", "Reporting", "Governance"]
-    },
-    {
-        period: "Jan 2024 – Dec 2024",
-        role: "Frontend Developer",
-        project: "Payment Solution",
-        description:
-            "Developed React interfaces for an enterprise payment solution, working with dynamic forms, complex hierarchical data, reusable components, Redux state management and REST API integration.",
-        skills: ["React", "Redux", "JavaScript", "TypeScript", "REST APIs"]
-    },
-    {
-        period: "Jun 2023 – Dec 2023",
-        role: "Frontend Developer",
-        project: "Employee Meal Booking",
-        description:
-            "Developed responsive React screens, integrated REST APIs, managed application state with Redux and worked on reusable UI components and form workflows.",
-        skills: ["React", "Redux", "JavaScript", "REST APIs"]
+            "Contribute to the development and maintenance of enterprise applications across payment and AI domains, building responsive, scalable and maintainable frontend solutions.",
+        responsibilities: [
+            "Translate business requirements and Figma designs into responsive interfaces using React.js, Angular, TypeScript and JavaScript.",
+            "Develop reusable components, configurable forms and dynamic workflows; integrate REST APIs and implement CRUD operations, state management, validation and error handling.",
+            "Maintain code quality, troubleshoot issues and optimize frontend performance. Use Git/GitHub for version control and Jira for task tracking and bug management.",
+            "Collaborate with business analysts, backend developers and QA engineers in Agile teams, and mentor 3 interns on a Graph-based RAG module."
+        ],
+        skills: [
+            "React.js",
+            "Angular 17",
+            "TypeScript",
+            "Redux",
+            "REST APIs",
+            "Git/GitHub",
+            "Jira",
+            "Figma",
+            "Agile/Scrum"
+        ],
+        additionalExperience: {
+            period: "May 2025 – January 2026",
+            role: "Additional Responsibility — Delivery Excellence",
+            description:
+                "Supported delivery governance, project reporting and coordination across project teams.",
+            responsibilities: [
+                "Collaborated with project managers to collect and consolidate project data, build monthly project metrics and develop Power BI dashboards to visualize delivery trends, project health and associated risks.",
+                "Analyzed project status, risks, escalations and performance metrics to support delivery reviews, governance activities and data-driven management decisions.",
+                "Contributed to the Delivery Excellence program by creating training materials and reference documentation to help project managers follow standardized reporting and governance processes."
+            ],
+            skills: [
+                "Power BI",
+                "SharePoint",
+                "Project Reporting",
+                "Delivery Governance"
+            ]
+        }
     }
 ];

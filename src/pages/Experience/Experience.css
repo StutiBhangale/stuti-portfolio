@@ -1,159 +1,291 @@
 .experience-section {
-  padding: 92px 6%;
-  background: var(--bg-primary);
-  color: var(--text-primary);
+    padding: 92px 6%;
+    background: var(--bg-primary);
+    color: var(--text-primary);
 }
 
-.section-heading {
-  max-width: 720px;
-  margin: 0 auto 48px;
-  text-align: center;
+.experience-section > .section-heading {
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto 48px;
+    text-align: center;
 }
 
-.section-heading > span {
-  color: var(--accent);
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 1.7px;
+.experience-section > .section-heading > span {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--accent);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.7px;
+    text-align: center;
 }
 
-.section-heading h1 {
-  margin: 8px 0 12px;
-  font-size: 32px;
-  font-weight: 700;
-  letter-spacing: -0.8px;
+.experience-section > .section-heading > h1 {
+    margin: 0 0 12px;
+    color: var(--text-primary);
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.8px;
+    text-align: center;
 }
 
-.section-heading p {
-  margin: 0;
-  color: var(--text-secondary);
-  font-size: 14px;
-  line-height: 1.7;
+.experience-section > .section-heading > p {
+    max-width: 620px;
+    margin: 0 auto;
+    color: var(--text-secondary);
+    font-size: 14px;
+    line-height: 1.7;
+    text-align: center;
 }
 
 .experience-timeline {
-  position: relative;
-  max-width: var(--container);
-  margin: 0 auto;
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .experience-timeline::before {
-  content: "";
-  position: absolute;
-  top: 8px;
-  bottom: 8px;
-  left: 18px;
-  width: 1px;
-  background: var(--border);
+    content: "";
+    position: absolute;
+    top: 21px;
+    bottom: 21px;
+    left: 20px;
+    width: 2px;
+    background: var(--border);
 }
 
 .experience-item {
-  position: relative;
-  display: grid;
-  grid-template-columns: 38px 1fr;
-  gap: 22px;
-  padding-bottom: 36px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 42px minmax(0, 1fr);
+    gap: 20px;
+    padding-bottom: 32px;
 }
 
 .experience-item:last-child {
-  padding-bottom: 0;
+    padding-bottom: 0;
 }
 
 .experience-marker {
-  position: relative;
-  z-index: 1;
-  width: 38px;
-  height: 38px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid var(--border);
-  border-radius: 50%;
-  background: var(--bg-secondary);
-  color: var(--accent);
+    position: relative;
+    z-index: 2;
+    display: flex;
+    width: 42px;
+    height: 42px;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    background: var(--bg-secondary);
+    color: var(--accent);
 }
 
 .experience-content {
-  padding: 2px 0 4px;
+    min-width: 0;
+    padding: 24px;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    background: var(--bg-card);
 }
 
 .experience-period {
-  margin-bottom: 7px;
-  color: var(--accent);
-  font-size: 12px;
-  font-weight: 650;
+    margin-bottom: 7px;
+    color: var(--accent);
+    font-size: 12px;
+    font-weight: 650;
 }
 
-.experience-content h2 {
-  margin: 0;
-  color: var(--text-primary);
-  font-size: 18px;
-  font-weight: 650;
+.experience-content > h2 {
+    margin: 0;
+    color: var(--text-primary);
+    font-size: 20px;
+    font-weight: 700;
 }
 
-.experience-content h3 {
-  margin: 4px 0 10px;
-  color: var(--text-secondary);
-  font-size: 14px;
-  font-weight: 500;
+.experience-content > h3 {
+    margin: 5px 0 12px;
+    color: var(--text-secondary);
+    font-size: 14px;
+    font-weight: 500;
 }
 
-.experience-content p {
-  max-width: 850px;
-  margin: 0;
-  color: var(--text-secondary);
-  font-size: 14px;
-  line-height: 1.75;
+.experience-description {
+    margin: 0 0 16px;
+    color: var(--text-secondary);
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+.experience-responsibilities {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.experience-responsibilities li {
+    padding-left: 4px;
+    color: var(--text-secondary);
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+.experience-responsibilities li::marker {
+    color: var(--accent);
 }
 
 .experience-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 7px;
-  margin-top: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 18px;
 }
 
 .experience-tags span {
-  padding: 5px 9px;
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  background: var(--bg-card);
-  color: var(--text-secondary);
-  font-size: 11px;
+    padding: 6px 10px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: var(--bg-secondary);
+    color: var(--text-secondary);
+    font-size: 11px;
+}
+
+/* Additional experience */
+
+.additional-experience {
+    margin-top: 28px;
+    padding: 20px;
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: 10px;
+    background: var(--bg-secondary);
+}
+
+.additional-experience-heading {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.additional-experience-icon {
+    display: flex;
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--border);
+    border-radius: 9px;
+    background: var(--bg-card);
+    color: var(--accent);
+}
+
+.additional-label {
+    display: block;
+    margin-bottom: 6px;
+    color: var(--accent);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+}
+
+.additional-role {
+    margin: 0;
+    color: var(--text-primary);
+    font-size: 15px;
+    font-weight: 650;
+    line-height: 1.5;
+}
+
+.additional-period {
+    display: block;
+    margin-top: 5px;
+    color: var(--text-secondary);
+    font-size: 12px;
+}
+
+.additional-description {
+    margin: 16px 0 12px;
+    color: var(--text-secondary);
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+.additional-list {
+    gap: 8px;
+}
+
+.additional-list li {
+    font-size: 13px;
+}
+
+.additional-experience .experience-tags {
+    margin-top: 14px;
 }
 
 @media (max-width: 600px) {
-  .experience-section {
-    padding: 70px 20px;
-  }
+    .experience-section {
+        padding: 70px 20px;
+    }
 
-  .section-heading {
-    margin-bottom: 36px;
-  }
+    .experience-section > .section-heading {
+        margin-bottom: 36px;
+    }
 
-  .section-heading h1 {
-    font-size: 27px;
-  }
+    .experience-section > .section-heading > h1 {
+        font-size: 27px;
+    }
 
-  .experience-item {
-    grid-template-columns: 32px 1fr;
-    gap: 15px;
-  }
+    .experience-timeline::before {
+        left: 15px;
+    }
 
-  .experience-timeline::before {
-    left: 15px;
-  }
+    .experience-item {
+        grid-template-columns: 32px minmax(0, 1fr);
+        gap: 12px;
+        padding-bottom: 26px;
+    }
 
-  .experience-marker {
-    width: 32px;
-    height: 32px;
-  }
+    .experience-marker {
+        width: 32px;
+        height: 32px;
+    }
 
-  .experience-content h2 {
-    font-size: 16px;
-  }
+    .experience-content {
+        padding: 16px;
+    }
 
-  .experience-content p {
-    font-size: 13px;
-  }
+    .experience-content > h2 {
+        font-size: 17px;
+    }
+
+    .experience-description,
+    .experience-responsibilities li {
+        font-size: 13px;
+    }
+
+    .experience-responsibilities {
+        gap: 8px;
+        padding-left: 18px;
+    }
+
+    .experience-tags {
+        gap: 6px;
+    }
+
+    .experience-tags span {
+        font-size: 10px;
+    }
+
+    .additional-experience {
+        margin-top: 22px;
+        padding: 15px;
+    }
+
+    .additional-role {
+        font-size: 14px;
+    }
 }

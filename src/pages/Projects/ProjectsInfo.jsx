@@ -10,7 +10,6 @@ const ProjectsInfo = () => {
     return (
         <section id="projects" className="project-section">
             <div className="section-heading">
-                <span>SELECTED WORK</span>
                 <h1>Projects</h1>
                 <p>Enterprise and internal applications across React, Angular, payments and AI.</p>
             </div>
